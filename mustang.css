@@ -1,0 +1,59 @@
+/*
+	Mario Franchi
+	Web and Dist Programming
+	Fall 2019
+	PA 6
+*/
+body{
+	text-align: center;
+	background-color: #00ffff;
+}
+
+h1{
+	color: red;
+	font-family: arial;
+}
+h3{
+	color: red;
+	font-family: arial;
+}
+
+#section1{
+	border: solid;
+	border-radius: 15px;
+	background-color: white;
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+#search{
+  border: dashed;
+  padding: 5px;
+  background-color: light-grey;
+  font-size: 16px;
+}
+
+#search[type=text] {
+  width: 95%;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid;
+  z-index: 99;
+  top: 100%;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: white; 
+  border-bottom: 1px solid; 
+}
